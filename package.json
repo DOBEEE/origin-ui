@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:lib": "cross-env BUILD_TYPE=lib node build/build.js",
+    "build:lib": "cross-env BUILD_TYPE=lib node ./build/build.js",
     "build:theme": "node build/build.theme.js",
     "build": "rimraf lib && npm run build:lib && npm run build:theme",
     "test": "echo \"Error: no test specified\" && exit 1"
